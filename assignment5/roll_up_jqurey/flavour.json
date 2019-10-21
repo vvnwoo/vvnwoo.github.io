@@ -1,0 +1,19 @@
+{"data":
+[
+  {
+    "Name": "辛口",
+    "Notes": "Bacardi,Gin Fizz,Bloody Mary,Daquiri,Old Fashioned,White Lady,Gibson",
+    "total": 7
+  },
+  {
+    "Name": "甘口",
+    "Notes": "Charlie Chaplin,Rusty Nail,Tequila Sunrise,Fuzzy Navel,Emerald Cooler,Mint Frappe",
+    "total": 6
+  },
+  {
+    "Name": "中等",
+    "Notes": "Florida,Jack Rose,Ice-breaker,Blue Moon,Cherry Blossom,Carib,Matador,Violet Fizz,China Blue,Aqua Marine,EI diablo,Srcrewdriver",
+    "total": 12
+  }
+]
+}

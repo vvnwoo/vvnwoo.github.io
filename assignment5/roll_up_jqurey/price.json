@@ -1,0 +1,24 @@
+{"data":
+  [
+  {
+    "consumption_per_person": "$50以下",
+    "bar": "Bobby’s Rabble",
+    "total": 1
+  },
+  {
+    "consumption_per_person": "$50~100",
+    "bar": "Bar Buonasera,The Old Man,Edition,Rummin’ Tings,Bilibala Yakitori Bar,Tai Lung Fung,Ori-gin,Little L.A.B.,Dada Bar + Lounge,Mini Club,Cicada,Stack",
+    "total": 12
+  },
+  {
+    "consumption_per_person": "$101~200",
+    "bar": "Quinary,001,The Iron Fairies,Bar Butler,The Woods,Dr. Fern’s Gin Parlour,The Envoy,Ping Pong Gintonería,Aberdeen Street Social,Mo Bar,Honi Honi,Employees Only,J. Boroski,Executive Bar,Bar De Luxe",
+    "total": 15
+  },
+  {
+    "consumption_per_person": "$201~400",
+    "bar": "Alibi - Wine Dine Be Social,Lee Lo Mei",
+    "total": 2
+  }
+]
+}

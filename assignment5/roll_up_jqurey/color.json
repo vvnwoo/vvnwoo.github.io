@@ -1,0 +1,54 @@
+{"data":
+[
+  {
+    "colour of the cocktail": "Red",
+    "cocktail names": "Bloody Mary,Jack Rose,Cherry Blossom,EI diablo",
+    "total": 4
+  },
+  {
+    "colour of the cocktail": "Pink",
+    "cocktail names": "Ice-breaker,Bacardi",
+    "total": 2
+  },
+  {
+    "colour of the cocktail": "Orange",
+    "cocktail names": "Tequila Sunrise,Fuzzy Navel,Srcrewdriver",
+    "total": 3
+  },
+  {
+    "colour of the cocktail": "Yellow",
+    "cocktail names": "Carib,Matador,Florida",
+    "total": 3
+  },
+  {
+    "colour of the cocktail": "Purple",
+    "cocktail names": "Blue Moon,Violet Fizz",
+    "total": 2
+  },
+  {
+    "colour of the cocktail": "Blue",
+    "cocktail names": "China Blue,Aqua Marine",
+    "total": 2
+  },
+  {
+    "colour of the cocktail": "Green",
+    "cocktail names": "Emerald Cooler,Mint Frappe",
+    "total": 2
+  },
+  {
+    "colour of the cocktail": "White",
+    "cocktail names": "Daquiri,White Lady",
+    "total": 2
+  },
+  {
+    "colour of the cocktail": "Transparent",
+    "cocktail names": "Gin Fizz,Rusty Nail,Gibson",
+    "total": 3
+  },
+  {
+    "colour of the cocktail": "Dark",
+    "cocktail names": "Charlie Chaplin,Old Fashioned",
+    "total": 2
+  }
+]
+}
