@@ -18,7 +18,7 @@ $(document).ready(function(){
     $("button#get_data").click(function() {
         var items = [];
         var i = 0;
-        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=key97YUIk7cV3F1NS";
+        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=keyhZaZxqas0E8p4M";
         var dataSet = [];
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
@@ -61,7 +61,7 @@ $(document).ready(function(){
      $("button#get_data2").click(function() {
       var items = [];
       var i = 0;
-      var airtable_read_endpoint = "https://api.airtable.com/v0/appaiZ7loI1tpRQau/Table%201?api_key=key97YUIk7cV3F1NS";
+      var airtable_read_endpoint = "https://api.airtable.com/v0/appaiZ7loI1tpRQau/Table%201?api_key=keyhZaZxqas0E8p4M";
       var dataSet = [];
       $.getJSON(airtable_read_endpoint, function(result) {
              $.each(result.records, function(key,value) {
