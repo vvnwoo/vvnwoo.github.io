@@ -153,11 +153,7 @@
 .html{
     scroll-behavior:smooth;
 }
-#map{
-    position: fixed;
-   
-   
-}
+
 #col-md-12{
     height:400px;
 }
