@@ -8,24 +8,23 @@
     <title>Love For Cocktail</title>
     <!-- Bootstrap core CSS -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154146424-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-154146424-1');
-</script>
-    
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-154146424-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-154146424-1');
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154146424-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
-</script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-154146424-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
+    </script>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
@@ -245,39 +244,39 @@ gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
             </div>
             <script>
               $("button#get_data2").click(function() {
-                                                        var items = [];
-                                                        var i = 0;
-                                                        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/tools_at_home?api_key=keyUxnK0u0EvdxVBO";
-                                                        var dataSet = [];
-                                                        $.getJSON(airtable_read_endpoint, function(result) {
-                                                               $.each(result.records, function(key,value) {
-                                                                   items = [];
-                                                                       items.push(value.fields.name);
-                                                                       items.push(value.fields.shortintroduction);
-                                                                       items.push(value.fields.images);
-                                                                       items.push(value.fields.recomendation);
-                                                                       dataSet.push(items);
-                                                                       console.log(items);
-                                                                }); // end .each
-                                                                console.log(dataSet);
-                                                
-                                                             $('#table2').DataTable( {
-                                                                 data: dataSet,
-                                                                 retrieve: true,
-                                                                 columns: [
-                                                                     { title: "Name",
-                                                                       defaultContent:""},
-                                                                     { title: "Introduction",
-                                                                         defaultContent:"" },
-                                                                     { title: "Images",
-                                                                       defaultContent:"" },
-                                                                     { title: "Our menu",
-                                                                       defaultContent:""},
-                                                                    
-                                                                 ]
-                                                             } );
-                                                        }); // end .getJSON
-                                                     }); // end button
+                                                                        var items = [];
+                                                                        var i = 0;
+                                                                        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/tools_at_home?api_key=keyUxnK0u0EvdxVBO";
+                                                                        var dataSet = [];
+                                                                        $.getJSON(airtable_read_endpoint, function(result) {
+                                                                               $.each(result.records, function(key,value) {
+                                                                                   items = [];
+                                                                                       items.push(value.fields.name);
+                                                                                       items.push(value.fields.shortintroduction);
+                                                                                       items.push(value.fields.images);
+                                                                                       items.push(value.fields.recomendation);
+                                                                                       dataSet.push(items);
+                                                                                       console.log(items);
+                                                                                }); // end .each
+                                                                                console.log(dataSet);
+                                                                
+                                                                             $('#table2').DataTable( {
+                                                                                 data: dataSet,
+                                                                                 retrieve: true,
+                                                                                 columns: [
+                                                                                     { title: "Name",
+                                                                                       defaultContent:""},
+                                                                                     { title: "Introduction",
+                                                                                         defaultContent:"" },
+                                                                                     { title: "Images",
+                                                                                       defaultContent:"" },
+                                                                                     { title: "Our menu",
+                                                                                       defaultContent:""},
+                                                                                    
+                                                                                 ]
+                                                                             } );
+                                                                        }); // end .getJSON
+                                                                     }); // end button
             </script>
           </div>
         </div>
@@ -286,7 +285,7 @@ gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
             <p></p>
             <p></p>
             <div class="col-md-12">
-              <table class="table">
+              <table class="table table-striped">
                 <thead>
                   <tr>
                     <th>#</th>
@@ -347,7 +346,8 @@ gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
         <div class="row">
           <div class="col-md-12">
             <div class="embed-responsive embed-responsive-16by9" id="tools">
-              <iframe class="embed-responsive-item" src="https://www.bilibili.com/video/av60329602?from=search&seid=7996844961783856198"
+              <iframe width="928" height="522" src="https://www.youtube.com/embed/iZUfPIKbgUM"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""></iframe>
             </div>
           </div>
@@ -365,95 +365,94 @@ gtag('config', 'UA-154146424-1', { 'optimize_id': 'GTM-W763LWV'});
             <p></p>
             <div id="map" style="width: 1106px; height: 480px;  "></div>
             <p></p>
-            <div class="row">
-              <div class="col-md-12">
-                <a class="btn btn-primary" id="get_data">show me the ranking</a>
-                <p></p>
-                <div class="table-responsive">
-                  <table id="table1" width="100%" class="table table-bordered"></table>
-                </div>
-                <script>
-                  $("button#get_data").click(function() {
-                                                                                        var items = [];
-                                                                                        var i = 0;
-                                                                                        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=keyPHEPqGToXXaPyQ";
-                                                                                        var dataSet = [];
-                                                                                        $.getJSON(airtable_read_endpoint, function(result) {
-                                                                                               $.each(result.records, function(key,value) {
-                                                                                                   items = [];
-                                                                                                       items.push(value.fields.name);
-                                                                                                       items.push(value.fields.location);
-                                                                                                       items.push(value.fields.tel);
-                                                                                                    
-                                                                                                       items.push(value.fields.price);
-                                                                                                       
-                                                                                                       dataSet.push(items);
-                                                                                                       console.log(items);
-                                                                                                }); // end .each
-                                                                                                console.log(dataSet);
-                                                                                
-                                                                                             $('#table1').DataTable( {
-                                                                                                 data: dataSet,
-                                                                                                 retrieve: true,
-                                                                                                 columns: [
-                                                                                                     { title: "Name",
-                                                                                                       defaultContent:""},
-                                                                                                     { title: "Location",
-                                                                                                         defaultContent:"" },
-                                                                                                     { title: "TEL",
-                                                                                                       defaultContent:"" },
-                                                                                                  
-                                                                                                     { title: "Price",
-                                                                                                         defaultContent:""},
-                                                                                                    
-                                                                                                 ]
-                                                                                             } );
-                                                                                        }); 
-                                                                                     });
-                </script>
+            <div class="row text-center">
+              <a class="btn btn-primary" id="get_data" href="test.html">show me the details</a>
+              <br>
+              <div class="table-responsive">
+                <table id="table1" width="100%" height="400px" class="table table-bordered"></table>
               </div>
+              <!-- table responsive -->
+              <script>
+                $("button#get_data").click(function() {
+                                        var items = [];
+                                        var i = 0;
+                                        var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=keyPHEPqGToXXaPyQ";
+                                        
+                                        var dataSet = [];
+                                        $.getJSON(airtable_read_endpoint, function(result) {
+                                               $.each(result.records, function(key,value) {
+                                                   items = [];
+                                                       items.push(value.fields.name);
+                                                       items.push(value.fields.location);
+                                                       items.push(value.fields.tel);
+                                                      
+                                                       
+                                                       
+                                                       dataSet.push(items);
+                                                       console.log(items);
+                                                }); // end .each
+                                                console.log(dataSet);
+                                
+                                             $('#table1').DataTable( {
+                                                 data: dataSet,
+                                                 retrieve: true,
+                                                 columns: [
+                                                     { title: "Name",
+                                                       defaultContent:""},
+                                                     { title: "Location",
+                                                         defaultContent:"" },
+                                                     { title: "TEL",
+                                                       
+                                                       defaultContent:""},
+                                                     
+                                                    
+                                                 ]
+                                             } );
+                                        }); 
+                                     });
+              </script>
+              <script>
+                var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
+                                                                                                  
+                                                                                                      var map = L.map('map')
+                                                                                                            .addLayer(mapboxTiles)
+                                                                                                            .setView([22.28299, 114.15846], 13);
+                                                                                                  
+                                                                                                  
+                                                                                                      var items = [];
+                                                                                                      var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=keyPHEPqGToXXaPyQ";
+                                                                                                  
+                                                                                                      var data = [];
+                                                                                                      $.getJSON(airtable_read_endpoint, function(result) {
+                                                                                                             $.each(result.records, function(key,value) { 
+                                                                                                                 items = {};
+                                                                                                                     items["name"] = value.fields.name;
+                                                                                                                     items["location"] = value.fields.location;
+                                                                                                                     items["tel"] = value.fields.tel;
+                                                                                                                     items["image_url"] = value.fields.img_url;
+                                                                                                                     items["price"] = value.fields.price;
+                                                                                                                     items["latitude"] = value.fields.Lat;
+                                                                                                                     items["longtitude"] = value.fields.Lng;
+                                                                                                                     data.push(items);
+                                                                                                                     console.log(items);
+                                                                                                              }); // end .each
+                                                                                                      }); // end getJSON
+              </script>
+              <script>
+                function show_districts(){
+                                                                                            
+                                                                                                for (var i in data) {
+                                                                                                  var latlng = L.latLng({ lat: data[i].latitude, lng: data[i].longtitude });
+                                                                                                    L.marker( latlng )
+                                                                                                        .bindPopup( '<a href="' + data[i].tel + '" target="_blank">' + '<img src="' + data[i].image_url+'" width = "80px"><br>'+data[i].name + '</a>' )
+                                                                                                        .addTo(map);
+                                                                                                }
+                                                                                            
+                                                                                              }
+              </script>
             </div>
           </div>
         </div>
-        <script>
-          var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
-                                                                          
-                                                                              var map = L.map('map')
-                                                                                    .addLayer(mapboxTiles)
-                                                                                    .setView([22.28299, 114.15846], 13);
-                                                                          
-                                                                          
-                                                                              var items = [];
-                                                                              var airtable_read_endpoint = "https://api.airtable.com/v0/appPGutXBuAhrvwP2/HKTOP30%F0%9F%8D%B8bar?api_key=keyPHEPqGToXXaPyQ";
-                                                                          
-                                                                              var data = [];
-                                                                              $.getJSON(airtable_read_endpoint, function(result) {
-                                                                                     $.each(result.records, function(key,value) { 
-                                                                                         items = {};
-                                                                                             items["name"] = value.fields.name;
-                                                                                             items["location"] = value.fields.location;
-                                                                                             items["tel"] = value.fields.tel;
-                                                                                             items["image_url"] = value.fields.img_url;
-                                                                                             items["price"] = value.fields.price;
-                                                                                             items["latitude"] = value.fields.Lat;
-                                                                                             items["longtitude"] = value.fields.Lng;
-                                                                                             data.push(items);
-                                                                                             console.log(items);
-                                                                                      }); // end .each
-                                                                              }); // end getJSON
-        </script>
-        <script>
-          function show_districts(){
-                                                                    
-                                                                        for (var i in data) {
-                                                                          var latlng = L.latLng({ lat: data[i].latitude, lng: data[i].longtitude });
-                                                                            L.marker( latlng )
-                                                                                .bindPopup( '<a href="' + data[i].tel + '" target="_blank">' + '<img src="' + data[i].image_url+'" width = "80px"><br>'+data[i].name + '</a>' )
-                                                                                .addTo(map);
-                                                                        }
-                                                                    
-                                                                      }
-        </script>
       </div>
     </section>
     <!-- Clients -->
